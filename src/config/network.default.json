@@ -1,0 +1,20 @@
+{
+  "ipfs": {
+    "repo": "",
+    "EXPERIMENTAL": {
+      "pubsub": true,
+      "sharding": false,
+      "dht": false
+    },
+    "preload": { "enabled": false },
+    "config": {
+      "Addresses": {
+        "Swarm": ["/dns4/star-signal.cloud.ipfs.team/tcp/443/wss/p2p-webrtc-star/ipfs/:peer-id"]
+      }
+    }
+  },
+  "orbit": {
+    "root": "/orbit"
+  },
+  "channels": []
+}
